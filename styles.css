@@ -54,3 +54,44 @@ h1 a {
 .clear{
     clear: both;
 }
+
+#menu {
+    height: 70px;
+    background: linear-gradient(#F8F594,#D5D533);
+    padding: 7px 0;
+}
+#menu > ul{
+    list-style: none;
+}
+
+#menu > ul > li{
+    display: inline-block;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5D12E7;
+}
+
+#menu > ul > li > a{
+    text-decoration: none;
+    color: #5D12E7;
+    font-size: 17px;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu > ul > li > a:hover, 
+#menu > ul > li > a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #B31FD8;
+}
+
+#menu > ul > li
