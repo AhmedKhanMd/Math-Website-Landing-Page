@@ -108,3 +108,60 @@ h1 a {
     color: #628f19;
     text-align: justify;
 }
+
+.sidebar{
+    width: 500px;
+    height: 450px;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px 0 10px 20px;
+    list-style: none;
+}
+
+.sidebar h3 {
+    color: #B314DB;
+    font-size: 30px;
+}
+
+.sidebar ul {
+    padding-top: 6px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5D12E7;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    font-size: 23px;
+    text-decoration: none;
+    color: #B314DB;
+    font-weight: bold;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+#leftsidebar ul li {
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/LogoMakr-0JuwTh.png);
+}
+
+#rightsidebar {
+    float: right;
+}
+
+#rightsidebar ul li {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 20px;
+    list-style-image: url(images/LogoMakr-6E2XZi.png);
+}
